@@ -1,3 +1,5 @@
+package treegochopchop;
+
 import org.bukkit.GameMode;
 import org.bukkit.Material;
 import org.bukkit.block.Block;

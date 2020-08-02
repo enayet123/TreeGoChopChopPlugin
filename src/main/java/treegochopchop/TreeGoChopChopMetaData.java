@@ -1,3 +1,5 @@
+package treegochopchop;
+
 import org.bukkit.Bukkit;
 import org.bukkit.metadata.MetadataValue;
 import org.bukkit.plugin.Plugin;

@@ -1,6 +1,6 @@
 name: TreeGoChopChop
 version: 1.0
 author: Enayet Hussain (enayet123)
-main: TreeGoChopChopPlugin
+main: treegochopchop.TreeGoChopChopPlugin
 api-version: 1.16
 description: Chops all logs from a tree when using an axe
