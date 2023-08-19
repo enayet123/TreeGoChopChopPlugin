@@ -25,17 +25,18 @@ public class Constants {
             Material.NETHERITE_AXE, Material.STONE_AXE, Material.WOODEN_AXE);
     static final List<Material> logs = Arrays.asList(
             Material.ACACIA_LOG,
-            Material.STRIPPED_ACACIA_LOG,
             Material.BIRCH_LOG,
-            Material.STRIPPED_BIRCH_LOG,
             Material.DARK_OAK_LOG,
-            Material.STRIPPED_DARK_OAK_LOG,
             Material.JUNGLE_LOG,
-            Material.STRIPPED_JUNGLE_LOG,
             Material.OAK_LOG,
-            Material.STRIPPED_OAK_LOG,
             Material.SPRUCE_LOG,
-            Material.STRIPPED_SPRUCE_LOG
+            Material.MANGROVE_LOG,
+            Material.CHERRY_LOG,
+            Material.CRIMSON_STEM,
+            Material.WARPED_STEM,
+            Material.MUSHROOM_STEM,
+            Material.RED_MUSHROOM_BLOCK,
+            Material.BROWN_MUSHROOM_BLOCK
     );
 
 }

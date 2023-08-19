@@ -26,9 +26,13 @@ public class TreeGoChopChopEvents implements Listener {
      */
     @EventHandler
     public void onBlockBreakEvent(BlockBreakEvent e) {
+        // Player is in survival
+        if (!e.getPlayer().getGameMode().equals(GameMode.SURVIVAL)) return;
+
         // Tree log values
         Block logBlock = e.getBlock();
         Material logType = logBlock.getType();
+
         // Axe values
         ItemStack axeItem = e.getPlayer().getInventory().getItemInMainHand();
         AtomicBoolean axeSurvived = new AtomicBoolean(true);
